@@ -1,0 +1,305 @@
+@media only screen and (max-width:1600px) {
+.three60view{ min-height:620px;}
+.footer-banner .caption{ right: 8%;}
+.three60view .three60view-content{ transform: translate(-10%,10%); top:0}
+.performance .display-table .display-cell, .spcification .display-table .display-cell{ padding:0 10px 0 10px}
+.spcification .tab-contents{ width: 70%;}
+.performance .tab-contents{ width:90%}
+.footer-banner .caption h2, .performance h2, .spcification h2, .three60view .three60view-content h2{ font-size:40px;}
+.super-carry-banner .caption{ height:320px; overflow-y: scroll;}
+.car-color-variant{ top: -10%;}
+.menu > ul > li a{ padding:1.5em 2em}
+.menu > ul > li .trueValuelogo, .menu > ul > li .nexaLogo{ padding:0.7em 1em}
+.nexaLogo img, .trueValuelogo img{height:45px;}
+.menu-container{ padding:0 1.5rem}
+.website_intro .seva-logo img{ width:60%}
+.menu > ul > li > ul { width:80%}
+.menu > ul > li > ul > li{ width:24%}
+}
+
+@media only screen and (max-width:1440px) {
+.logo{ width:100px}
+.logo img{ width:100%}
+.menu > ul > li a{ padding:1.5em 1.5em}
+/*footer .social-media{ padding:4rem 3rem 0 3rem}
+footer .mainlinks{ padding:4rem 0 0 2rem}*/
+footer .podcast-section{ padding:4rem 3rem 0}
+.three60view .three60view-content{ transform: translate(-10%,10%); top:0}
+.footer-banner .caption{ right: 5%; width:45%}
+.three60view{ min-height: 538px;}
+.performance .tab-contents{ width: 90%;}
+.performance .display-table .display-cell, .spcification .display-table .display-cell{ padding:0 10px 0 10px}
+.performance h2{ margin:0 0 20px}
+.performance-content #v-pills-tabContent{ overflow-y:scroll; height:400px}
+.nexaLogo img, .trueValuelogo img{height: 45px;}
+.wagnor-details .car-color-variant { top: -30%;}
+#boxes .window { padding:50px 0}
+.website_intro .other-sites a img{ width:120px}
+.website_intro h2 { font-size: 28px;}
+.website_intro .seva-logo img {width: 45%;}
+}
+
+@media only screen and (max-width:1366px) {
+.menu > ul > li a{ padding:1.5em 1.5em}
+.logo{ width:80px}
+.logo img{ width:100%}
+/*footer .mainlinks{ padding:2rem 0 2rem 2rem}*/
+footer .podcast-section{ padding:2rem 0 0 2rem}
+.three60view{  min-height: 538px;}
+.footer-banner .caption{ right: 5%; top:15%}
+.nexaLogo img, .trueValuelogo img{height: 45px;}
+.one-product{ width:100%}
+
+}
+@media only screen and (max-width: 1280px) {
+footer .mainlinks{ padding:2rem 0 2rem 2rem}
+footer .podcast-section{ padding:2rem 2rem 0 3rem}
+/*footer .social-media{ padding:2rem 2rem 0 3rem}*/
+.menu > ul > li > ul > li a img{ width:100%}
+.menu > ul > li a{ padding:1.5em 0.95em}
+.logo{ width:80px}
+.product-content{ padding:10px;}
+.three60view .three60view-content{ transform: translate(-12%,5%);}
+.three60view { min-height: 488px;}
+footer-banner .caption { right: 2%;}
+.footer-banner .caption h2, .performance h2, .spcification h2, .three60view .three60view-content h2, .innerpageHeading{ font-size:40px;}
+.performance h2{ margin-top:0}
+.performance-content #v-pills-tabContent{ overflow-y:scroll; height:350px}
+.menu > ul{ display: flex;justify-content: flex-end;}
+#boxes .window { padding:50px 0}
+.website_intro .other-sites a img{ width:120px}
+.website_intro h2 { font-size: 28px;}
+.website_intro .seva-logo img {width: 45%;}
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1200px) {
+footer .mainlinks{  padding:3rem 0 3rem 1rem;}
+footer .podcast-section{ padding:3rem 0rem 0 0rem}
+/*footer .social-media{ padding:3rem 0rem 0 0rem}*/
+.menu-container{ display:block; padding:0 1rem}
+.logo{ width:100px; margin: 0 auto; position:static}	
+.logo img{ width:100%}
+.menu > ul{ margin:0 auto}
+.menu{display: table; width: auto; margin: 0 auto;}
+.side-nav{  justify-content: center; -webkit-box-pack: center}
+.product-carousel .productItems img, .generic-hero .itemimg img{ width:100%}
+.three60view .three60view-content {transform: translate(-10%,-50%);}
+.three60view{ min-height:auto}
+.footer-banner .caption{right: 2%; width: 45%}
+.performance h2{ margin:0}
+.spcification .tab-contents{ width: 90%;}
+.product-carousel .productItems img{ margin-top:25%}
+.footer-banner .caption h2, .three60view .three60view-content h2, .performance h2{ font-size:40px;}
+.performance-content .tab-content{ height:300px; overflow-y:scroll}
+.performance .display-table .display-cell h4, .spcification .display-table .display-cell h4{ font-size:12px;}
+.performance .display-table .display-cell p, .spcification .display-table .display-cell p{ line-height: 18px;}
+.performance .performance-content{ top:0}
+.footer-banner .caption { top:10%}
+.trueValuelogo img, .nexaLogo img{ height:32px;}
+footer .mainlinks ul li{ overflow-wrap: break-word;}
+.menu a{ padding: 10px 20px;}
+.mid-nav { top: 190px}
+.website_intro .seva-logo img {width: 50%;}
+.website_intro .other-sites a {margin: 0 10px;}
+.website_intro h2 { font-size:40px;}
+.one-product__slider{ padding: 0;}
+.one-product{ padding:0; max-width: 100%;}
+.slick-initialized .slick-slide .fancybox img{ width:100%}
+.car-container{ position:static}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.menu-container{ display:block; padding:0 1rem}
+.menu{ width:100%}	
+.logo{ width:90px; margin: 0 auto; position:static}	
+.logo img{ width:100%}
+.menu{ display:block; }
+.menu > ul > li a{ padding:1.5em}
+.menu > ul{ margin:15px}
+.menu > ul > li > ul > li a img{ display:none}
+.side-nav ul{ float:none; text-align:center; }
+.side-nav{ justify-content: center; -webkit-box-pack: center}
+.side-nav ul li{ padding:5px 20px}
+footer .footer-links h4{ margin-bottom:2rem}
+footer .mainlinks{ border-right:none; border-left:none; border-top:1px solid #282a29; border-bottom:1px solid #282a29; padding:3rem 0 3rem 1rem;}
+/*footer .social-media{  padding:3rem 2rem 4rem 2rem}*/
+.happy-customer .numscroller{ width:100%; background-size:43px; font-size: 48px !important;line-height: 76px;}
+.happy-customer .text-center h2{ font-size: 38px;}
+.generic-hero .mediacontent.vcenter{ width: 96%; bottom:0; top:auto}
+.product-carousel .item .productItems .proudctFooter .product-content{overflow-y: scroll; height: 240px;}
+.three60view .three60view-content{ transform: translate(2%,0%); bottom:0%; top: auto;}
+.spcification .img-car { width: 60%;}
+.spcification .tab-contents{ width:100%}
+.performance h2, .performance2 h2{ margin:10px 0}
+.performance .performance-content, .performance2 .performance-content{ top:0%; padding-top:0}
+.performance .tab-contents, .performance2 .tab-contents{ width:100%}
+.performance .prod-image img, .performance2 .prod-image img{ width:100%}
+.performance .display-table .display-cell{ width:45%; border-right:none;}
+.footer-banner .caption, .footer-banner2 .caption{ position:static; padding:30px; width:100%}
+.footer-banner .caption h2, .three60view .three60view-content h2, .footer-banner2 .caption h2{ font-size:35px;}
+.super-carry-banner .caption h3{ font-size:20px;}
+.super-carry-banner .caption h3{ font-size:20px; color:#000}
+.super-carry-banner .caption p{ color:#000}
+.super-carry-banner .caption{ position:static; width:90%; padding:20px; height:auto}
+.eeco-cargo-safty .super-carry-banner .caption{ width:100%}
+.footer-banner2 .caption{ background:#000}
+.footer-banner2 .caption h2{ font-size:30px;}
+.performance-content #v-pills-tabContent{ height: 290px;}
+.car-color-variant {top: -4%;}
+.menu > ul{ display:table-column}
+.menu a{ padding: 10px 20px;}
+.mid-nav { top: 154px}
+.website_intro .seva-logo img {width: 50%;}
+.website_intro .other-sites a{ margin:30px;}
+.price-section { height: 270px;}
+.deskViewprice{ display:none }
+.mobileViewPrice{ display:block; background:#000; height: 390px; padding:20px}
+.one-product__slider{ padding: 0;}
+.one-product{ padding:0; max-width: 100%;}
+.slick-initialized .slick-slide .fancybox img{ width:100%}
+.car-container{ position:static}
+.menu > ul > li > ul > li{ width:100%}
+
+}
+@media(max-width:767px) {
+   
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.menu-container{ display:block; padding:0 1rem}
+.logo{ width:100px; margin: 0 auto; position:static}	
+.logo img{ width:100%}
+.menu{ display:block; }
+.menu a{ color:#FFF}
+.menu > ul > li a{ padding:1.5em 1.5em 1.5em 0}
+.menu > ul{ margin:15px}
+.menu > ul > li > ul > li a img{ display:none}
+.side-nav ul{ float:none; text-align:center; }
+.side-nav{ justify-content: center; -webkit-box-pack: center}
+.side-nav ul li{ padding:5px 20px}
+.menu-mobile{ padding:10px;}
+footer .footer-newletter h2{ font-size:26px;}
+footer .footer-newletter .pl-5{ padding-left:1rem!important}
+footer .mainlinks{ padding:3rem 0 3rem 1rem; border-right:none; border-left:none; border-top:1px solid #282a29; border-bottom:1px solid #282a29}
+footer .podcast-section, footer .social-media{  padding:3rem 0 3rem 1rem;}
+footer .footer-links h4{ margin-bottom:1rem}
+.menu > ul{ display:table-column}
+.nexaLogo img, .trueValuelogo img{ height: 55px;}
+header{position: static;}
+.deskViewprice{ display:none }
+.mobileViewPrice{ display:block; background:#000; height: 390px; padding:20px}
+.bodyshopMobile{ display:block}
+.bodyshopDesk{ display:none}
+.one-product__slider{ padding: 0;}
+.one-product{ padding:0; max-width: 100%;}
+.slick-initialized .slick-slide .fancybox img{ width:100%}
+.car-container{ position:static}
+.website_intro{ padding:120px 0 0;}
+
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+.menu-container{ display:block; padding:0 1rem}
+.logo{ width:100px; margin: 0 auto;/* right: -50%; left: -50%; transform: translate(0%, 12%);*/ position:static}	
+.logo img{ width:100%}
+.menu{ display:block; }
+/*.menu a{ color:#000}*/
+.menu > ul > li a{ padding:1.5em 1.5em}
+.menu > ul{ margin:15px 0}
+.menu > ul > li > ul > li a img{ display:none}
+.side-nav ul{ float:none; text-align:center; }
+.side-nav{  justify-content: center; -webkit-box-pack: center}
+.side-nav ul li{ padding:5px 20px}
+.menu-mobile{ padding:10px;}
+footer .footer-newletter h2{ font-size:26px;}
+footer .footer-newletter .pl-5{ padding-left:1rem!important}
+footer .mainlinks{ padding:1rem 0 1rem 1rem; border-right:none; border-left:none; border-top:1px solid #282a29; /*border-bottom:1px solid #282a29*/}
+footer .podcast-section, footer .social-media{  padding:1.5rem 0 3rem 1rem;}
+footer .footer-links h4{ margin-bottom:1rem}
+footer .mainlinks ul{ margin-bottom:15px;}
+footer .mainlinks ul li{ margin-bottom: 14px;}
+footer .mainlinks ul li a{ font-size:14px;}
+.our-values ul li{ width:94%; margin-left:20px; padding:0 10px 50px 60px}
+.happy-customer .numscroller{ width:100%; background-size:43px; font-size: 48px !important;line-height: 76px;}
+.generic-hero .mediacontent.vcenter{ clear: both; position: absolute; bottom: 0; padding: 10px; width:100%; top:auto; transform:inherit; height:55%}
+.product-carousel .productItems img{ width:100%}
+.generic-hero .itemimg .mediacontent img{ width:100%}
+.product-carousel .item .productItems .proudctFooter .product-content{ height:300px; overflow-y:scroll; padding:25px 15px}
+.three60view{ min-height:inherit; }
+.three60view .three60view-content { transform: translate(2%); width: 100%; bottom: 18%; top: auto;}
+.spcification .tab-contents{ width:100%}
+.spcification{ min-height:inherit}
+.spcification .display-table .display-cell{ display:block; width:100%; border-right:none;}
+.performance .prod-image, .performance2 .prod-image {top: 0;transform: translateY(0);}
+.performance .performance-content, .performance2 .performance-content{ position:static}
+.performance .prod-image img, .performance2 .prod-image img{ width: 60%; display: inline;}
+.performance2 .performance-content{ background:#000}
+.spcification .img-car{ width:76%}
+.spcification .img-car img{ width:100%}
+.footer-banner .caption, .footer-banner2 .caption{ position:static; padding:30px;}
+.performance .tab-contents{ width:100%}
+.performance .display-table .display-cell{ width:100%; border:none; display:table}
+.performance h2, .footer-banner .caption h2, .three60view .three60view-content h2, .spcification h2, .footer-banner2 .caption h{ margin:10px 0; font-size: 2rem;}
+.product-carousel .item .productItems .proudctFooter ul li{ padding-left:0; border-right:0; width:50%}
+#lightbox img{ width:100%}
+.lb-outerContainer, .lb-dataContainer[style]{ width:100%!important; height:auto!important}
+#pills-tabContent{ height:400px; overflow-y:scroll}
+.footer-banner .caption, .eeco-cargo-safty .super-carry-banner .caption, .footer-banner2 .caption{ width:100%}
+.super-carry-banner .caption h3{ font-size:20px; color:#000}
+.super-carry-banner .caption p{ color:#000}
+.super-carry-banner .caption{ position:static; width:90%; padding:20px; height:auto}
+.super-carry2nd h2, .supper-featuers h2, .cab-chasis h2, .super-car-features h2, .super-car-specifications h2, .super-car-downloads h2, .space-capacity h2, .eeco-cargo-safty h2, .innerpageHeading{ font-size:30px;}
+.super-car-downloads a{ margin-bottom:20px;}
+.super-carry-banner .caption ul li{ font-size:11px;}
+.spc-details{ width:100%}
+.spcification2{ margin-top:0; padding:40px 0}
+.performance2 .performance-content #v-pills-tabContent{ height:auto}
+.features-content{ margin:20px 0 20px 14px}
+.footer-banner2 .caption{ background:#000}
+.footer-banner2 .caption h2{ font-size:30px;}
+.car-color-variant{ position: static; width: 100%; transform: none; margin-top:50px;}
+.car-color-variant a{ margin-bottom:10px;}
+.menu > ul{ display:table-column}
+.nexaLogo img, .trueValuelogo img{ height: 55px;}.footer-bottom a{ display:inline-block}
+header{position: static;}
+.mid-nav ul li a{display: block;}
+.mid-nav ul li{ padding:5px; width: 45%;}
+.website_intro .seva-logo img{ width:22%}
+.website_intro h2{ font-size:16px;}
+.website_intro .other-sites a{ display: inline-block; margin:4px 30px;}
+.website_intro .other-sites a img{ width:100px;}
+.website_intro{ padding:0;}
+.mid-nav{ top:0px}
+.mu-single-team-img img{ width: 50%;}
+.deskViewprice{ display:none }
+.mobileViewPrice{ display:block; background:#000; height: 390px; padding:20px}
+.mid-nav ul li a { padding:7px 10px}
+#toTopBtn{ bottom: 86px; right: 12px;}
+.bookAServiceAppointmentButton, .triggerBookAShowRoomVisitButton{ display:inline-block}
+#carousel div img{ width:70%;}
+.wagnor3rd .three60view-content{ bottom: 8%;}
+.dzire3rd .three60view-content{ bottom:5%;}
+.bodyshopMobile{ display:block}
+.bodyshopDesk{ display:none}
+.menu > ul > li > ul{ width: 100%;}
+.one-product__slider{ padding: 0;}
+.one-product{ padding:0; max-width: 100%;}
+.slick-initialized .slick-slide .fancybox img{ width:100%}
+.car-container{ position:static}
+.one-product__slider_navigation .item{  margin: 10px;}
+.menu > ul > li > ul > li{ width:100%}
+.formsection{ padding:0; overflow-x: scroll;}
+#boxes .window{ padding:20px 0}
+#boxes #dialog { width:80%}
+.welcomesect .col-md-6{text-align:center!important;font-size: 14px;}
+.website_intro .welcomesect{ margin-bottom: 20px; padding: 5px 30px}
+}
+
+@media(max-width:320px) {
+.bookAServiceAppointmentButton, .triggerBookAShowRoomVisitButton{ display:inline-block}
+#toTopBtn{ bottom: 86px; right: 12px;}
+.website_intro{ padding:10px 0;}
+
+}
+
