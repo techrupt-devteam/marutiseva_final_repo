@@ -37,7 +37,7 @@ $sql = "SELECT product_cat.id AS id, product_cat.car AS car FROM product INNER J
     </div>
     <div class="my-1 mb-5">
       <div class="formsection mt-0">
-        <form action="send_mail_enquiry.php" method="post" data-parsley-validate="parsley">
+        <form action="send_mail_enquiry.php" method="post" data-parsley-validate="parsley" onsubmit="return submitUserForm();">
           <div class="row">
             <div class="form-group col-md-6">
               <label for="inputAddress2">Full Name <span class="parsley-required" style="color:red">*</span></label>
@@ -91,6 +91,12 @@ $sql = "SELECT product_cat.id AS id, product_cat.car AS car FROM product INNER J
               <label for="inputAddress2">Description</label>
               <textarea class="form-control" name="desc" aria-label="With textarea"></textarea>
             </div>
+            <div class="form-group col-md-12">
+              <div class="form-group mt-3 col-md-6">
+                <div class="g-recaptcha" data-sitekey="6LcuUwEVAAAAAOF4b4IxvoXTo3TN09aaviVw2xaw" data-callback="verifyCaptcha"></div>
+                <div id="g-recaptcha-error"></div>
+              </div>
+            </div>
           </div>
           <div class="form-group">
             <p style="font-size:12px">
@@ -109,6 +115,10 @@ $sql = "SELECT product_cat.id AS id, product_cat.car AS car FROM product INNER J
   </div>
 </section>
 </main>
+
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
 <script src="assets/js/jquery1.12.0-min.js"></script>
 <script src="assets/js/parsley.js"></script>
 <script type="text/javascript">
@@ -166,6 +176,20 @@ $sql = "SELECT product_cat.id AS id, product_cat.car AS car FROM product INNER J
             }
         });
   }
+
+  function submitUserForm() {
+    var response = grecaptcha.getResponse();
+    // alert(response);die();
+    if(response.length == 0) {
+        document.getElementById('g-recaptcha-error').innerHTML = '<span style="color:red;">This field is required.</span>';
+        return false;
+    }
+    return true;
+}
+ 
+function verifyCaptcha() {
+    document.getElementById('g-recaptcha-error').innerHTML = '';
+}
 
 </script>
 <?php  

@@ -76,8 +76,8 @@ if(isset($_POST['submit'])){
         $new_date =  $date;
         }
        
-        $url="http://www.smsjust.com/sms/user/urlsmstemp.php?username=sevanashik&pass=3701@seva&senderid=SEVAgp&dest_mobileno=91".$phone_no."&tempid=78809&F1=".$name."&F2=".$car."&F3=".$city."&F4=".$new_date."&response=Y";
-
+        echo $url="http://www.smsjust.com/sms/user/urlsmstemp.php?username=sevanashik&pass=3701@seva&senderid=SEVAgp&dest_mobileno=91".$phone_no."&tempid=78809&F1=".$name."&F2=".$car."&F3=".$city."&F4=".$new_date."&response=Y";
+exit;
         $ch = curl_init($url);
         curl_setopt( $ch,CURLOPT_RETURNTRANSFER, true );
         curl_setopt( $ch, CURLOPT_FOLLOWLOCATION, 1);

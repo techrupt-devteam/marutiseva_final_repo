@@ -100,7 +100,7 @@ picker2.addEventListener('input', function(e){
           </div>
           <div class="form-group col-md-4">
             <label for="inputPassword4">Test Drive Date<span class="parsley-required" style="color:red">*</span></label>
-            <input type="text" class="form-control" id="datepicker_today" name="td_date" placeholder="Test Drive Date" required="true" data-parsley-required-message="Please Select A Date for test drive" data-parsley-mindate="<?php date();?>">
+            <input type="text" class="form-control" id="datepicker_today" name="td_date" placeholder="Test Drive Date" required="true" data-parsley-required-message="Please Select A Date for test drive" data-parsley-mindate="<?php date('d-m-Y');?>">
             <div id="newdate1"></div>
           </div>
           <div class="form-group col-md-4">
