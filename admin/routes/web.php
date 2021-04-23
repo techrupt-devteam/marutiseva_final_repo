@@ -10,6 +10,13 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+Route::get('/clear', function() {
+	Artisan::call('cache:clear');
+	Artisan::call('config:clear');
+	Artisan::call('config:cache');
+	Artisan::call('view:clear');
+ 	return "Cleared!";
+ });
 
 
 
